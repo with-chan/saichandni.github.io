@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+
+  <meta
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    name="viewport"
+  />
+
+  <title>The AI boom and the catching up Saas Industry  </title>
+
+  <meta property="og:title" content="How to become a frontend developer | Atom Template" />
+
+  <meta property="og:locale" content="en_US" />
+
+  <link
+    rel="canonical"
+    href="//post"
+  />
+
+  <meta
+    property="og:url"
+    content="//post"
+  />
+
+  <meta
+    name="description"
+    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  />
+
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+
+  <meta name="theme-color" content="#5540af" />
+
+  <meta property="og:site_name" content="Atom Template" />
+
+  <meta property="og:image" content="//assets/img/social.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta name="twitter:site" content="@tailwindmade" />
+
+  <link
+    crossorigin="crossorigin"
+    href="https://fonts.gstatic.com"
+    rel="preconnect"
+  />
+
+  <link
+    as="style"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
+    rel="preload"
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+
+  <link
+    crossorigin="anonymous"
+    href="/assets/styles/main.min.css"
+    media="screen"
+    rel="stylesheet"
+  />
+  
+  <script
+    defer
+    src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
+  ></script>
+
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css"
+  />
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+
+  <script>
+    hljs.highlightAll();
+  </script>
+  
+</head>
+
+
+  <body
+    :class="{ 'overflow-hidden max-h-screen': mobileMenu }"
+    class="relative"
+    x-data="{ mobileMenu: false }"
+  >
+    
+    <div id="main" class="relative">
+      <div
+  x-data="{
+    triggerNavItem(id) {
+        $scroll(id)
+    },
+    triggerMobileNavItem(id) {
+        mobileMenu = false;
+        this.triggerNavItem(id)
+    }
+}"
+>
+  <div class="w-full z-50 top-0 py-3 sm:py-5  bg-primary ">
+  <div class="container flex items-center justify-between">
+    <div>
+      
+    </div>
+    <div class="hidden lg:block">
+      <ul class="flex items-center">
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#about"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >💡 Who I Am ?</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#services"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >🚀 Expertise</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#portfolio"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >⚡Portfolio & Blogs</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <!-- <li class="group pl-6">
+          
+          <a
+            href="/#clients"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Clients</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li> -->
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#work"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >🔍 My Journey</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#statistics"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >🏆 Feats !</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#blog"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >Blog</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+        <li class="group pl-6">
+          
+          <a
+            href="/#contact"
+            class="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white"
+            >📩 Get in Touch</a
+          >
+          
+          <span
+            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
+          ></span>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="block lg:hidden">
+      <button @click="mobileMenu = true">
+        <i class="bx bx-menu text-4xl text-white"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div
+  class="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden"
+  :class="{ 'opacity-100 pointer-events-auto': mobileMenu }"
+>
+  <div
+    class="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3"
+  >
+    <button
+      class="absolute top-0 right-0 mt-4 mr-4"
+      @click="mobileMenu = false"
+    >
+      <img src="/assets/img/icon-close.svg" class="h-10 w-auto" alt="" />
+    </button>
+
+    <ul class="mt-8 flex flex-col">
+      
+      <li class="py-2">
+        
+        <a
+          href="/#about"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >About</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#services"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Services</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#portfolio"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Portfolio</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#clients"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Clients</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#work"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Work</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#statistics"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Statistics</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#blog"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Blog</a
+        >
+        
+      </li>
+      
+      <li class="py-2">
+        
+        <a
+          href="/#contact"
+          class="pt-0.5 font-header font-semibold uppercase text-white"
+          >Contact</a
+        >
+        
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+      <div><div class="container py-6 md:py-10">
+  <div class="mx-auto max-w-4xl">
+    <div class="">
+      <h1
+        class="pt-5 font-body text-3xl font-semibold text-primary sm:text-4xl md:text-5xl xl:text-6xl"
+      >
+        Is every SaaS Product an AI product today ?
+      </h1>
+      <div class="flex items-center pt-5 md:pt-10">
+        <div>
+          <img
+            src="/assets/img/favicon.jpeg"
+            class="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
+            alt="author image"
+          />
+        </div>
+        <div class="pl-5">
+          <a href="https://www.linkedin.com/in/sai-chandni-chellakumar-77a846154/" target=_blank><span class="block font-body text-xl font-bold text-grey-10"
+            >By Sai Chandni Chellakumar </a></span
+          >
+          <span class="block pt-1 font-body text-xl font-bold text-grey-30"
+            >March 27, 2025</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="prose max-w-none pt-8"><h2 id="lorem-ipsum-dolor-sit-amet">The AI boom and the catching up SaaS Industry</h2>
+
+<p style="
+    text-align: justify;">The AI run is real and here are some businesses that are not merely surviving but thriving in the shifting paradigm.</p>
+
+<p style="
+    text-align: justify;">I recently came across this surprising data that as of 2025, around 85% of the Saas companies have built at least one AI feature to keep up with the growing trend. Every product today is becoming an AI product, or at the very least, is marketed as such by integrating AI features into the product. </p>
+
+ <p style="
+    text-align: justify;">The most used AI features today fall under one of these categories and the use cases that they can resolve is enormousIf you are looking to innovate your product or solve a critical pain point, adopting one of these AI capabilities can enhance your product efficiency and also align with the AI trend in the market. </p>
+
+</p>
+
+<p></p>
+
+
+<div>
+  <a href=https://www.figma.com/design/QKRi2rIUBuolrNslsUbPyU/Untitled?node-id=0-1&t=KpkCt8ewP83W7NFI-1 target=_blank>
+    <img src="/assets/img/AI-Features-Category.png" style="
+    margin-left: 100px;
+">
+</a></div>
+
+<h3 id="lorem-ipsum-dolor-sit-amet-1"> AI Features Transforming Everyday Processes</h3>
+
+
+<p style="
+    text-align: justify;">
+<ul>
+  <li> <p style="
+    text-align: justify;">Real-time customer preferences personalize experiences, powering 10–15% of AI applications. SaaS giants like Amazon, Instagram, and Netflix use them for product and content suggestions. </p>  </li>
+  <li> <p style="
+    text-align: justify;"> Image / Text/ voice Recognition : It has become core to daily life, from Apple Photos search to Snapchat filters. Embedded across platforms like Google Lens, healthcare, security, and retail.
+ </p></li>
+  <li><p style="
+    text-align: justify;"> Generative AI : Integrated into tools like LinkedIn with feature like "re-write with AI", Canva, and many more places where we find features to re-write text or generate text, the LLMs are gaining widespread adoption through easy-to-integrate APIs and services. </p></li>
+  <li><p style="
+    text-align: justify;"> AI Task Automation : Transforming productivity in ITSM, AIOps, and sales, with 50-60% of companies already using AI. Task automation boosts productivity by up to 40%, becoming essential for SaaS. </p></li>
+  <li> <p style="
+    text-align: justify;">Natural Language Processing : Powers innovations like Alexa, Google Assistant, sentiment analysis, chatbots, and more, widely adopted across tech support, marketing, and customer experience.</p></li>
+  <li> <p style="
+    text-align: justify;"> Data Prediction & Detection :  Used in weather forecasting, soil testing, and manufacturing, as well as for sales, market forecasting and many mmore data predictions. AI-driven fraud detection in fintech is rapidly growing for enhanced security. </p> </li>
+
+</ul>
+</p>
+
+<p style="
+    text-align: justify;">Most AI features utilize a combination of capabilities to deliver powerful results. For example, a virtual assistant like Alexa uses NLP for understanding commands, speech recognition for processing voice input, and machine learning to improve responses over time. Similarly, autonomous vehicles combine computer vision for object detection, image recognition for interpreting surroundings, and predictive analytics for route optimization. </p>
+
+<!--<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fonts.forEach(font =&gt; {
+  const { id, name, likes } = font;
+  if (
+    likes &gt;= 30
+    || (likes === 50 &amp;&amp; likes != 0)
+    || favorites[id]
+  ) {
+    coolFonts++;
+    console.log(`${name} is cool!`);
+  }
+});
+</code></pre></div></div>-->
+
+<p style="
+    text-align: justify;">SaaS companies must quickly adopt AI to stay competitive, as products without AI are falling behind. As a Product Manager, the AI boom presents exciting opportunities to innovate and enhance user experiences.
+</p>
+</div>
+    <div class="flex pt-10">
+      <a
+        href="/"
+        class="rounded-xl bg-primary px-4 py-1 font-body font-bold text-white hover:bg-grey-20"
+        >Product Management</a
+      >
+      <a
+        href="/"
+        class="ml-2 block rounded-xl bg-primary px-4 py-1 font-body font-bold text-white hover:bg-grey-20"
+        >AI Features</a
+      >
+      <a
+        href="/"
+        class="ml-2 block rounded-xl bg-primary px-4 py-1 font-body font-bold text-white hover:bg-grey-20"
+        >Core AI Technology</a
+      >
+      <a
+        href="/"
+        class="ml-2 block rounded-xl bg-primary px-4 py-1 font-body font-bold text-white hover:bg-grey-20"
+        >SAAS Products</a
+      >
+    </div>
+    <div class="mt-10 flex justify-between border-t border-lila py-12">
+      <a href="/" class="flex items-center">
+        <i class="bx bx-left-arrow-alt text-2xl text-primary"></i>
+        <span
+          class="block pl-2 font-body text-lg font-bold uppercase text-primary md:pl-5"
+          >Previous Post</span
+        >
+      </a>
+      <a href="/" class="flex items-center">
+        <span
+          class="block pr-2 font-body text-lg font-bold uppercase text-primary md:pr-5"
+          >Next Post</span
+        >
+        <i class="bx bx-right-arrow-alt text-2xl text-primary"></i>
+      </a>
+    </div>
+    <div
+      class="flex flex-col items-center border-t border-lila py-12 pt-12 md:flex-row md:items-start xl:pb-20"
+    >
+      <div class="w-3/4 sm:w-2/5 lg:w-1/4 xl:w-1/5">
+        <img
+          src="/assets/img/favicon.jpeg"
+          class="rounded-full shadow"
+          alt="author image"
+        />
+      </div>
+      <div class="ml-0 text-center md:ml-10 md:w-5/6 md:text-left">
+        <h3 class="pt-10 font-body text-2xl font-bold text-secondary md:pt-0">
+          Sai Chandni Chellakumar
+        </h3>
+        <p
+          class="pt-5 font-body text-lg leading-8 text-secondary sm:leading-9 md:text-xl md:leading-9 lg:leading-9 xl:leading-9" style="text-align: justify;"
+        >
+          I thrive on customer collaboration, using feedback to design features that enhance user experience. With a strong commitment to innovation and a deep understanding of customer needs, I’m dedicated to building exceptional products that make a meaningful impact in the real world.
+
+        </p>
+        <div class="flex items-center justify-center pt-5 md:justify-start">
+          <a href="/">
+            <i
+              class="bx bxl-facebook-square text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-twitter text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-dribbble text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-linkedin text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i
+              class="bx bxl-instagram text-2xl text-primary hover:text-yellow"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+      <div class="bg-primary">
+  <div class="container flex flex-col justify-between py-6 sm:flex-row">
+    <p class="text-center font-body text-white md:text-left">
+      © Copyright 2022. All right reserved, ATOM.
+    </p>
+    <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
+      <a href="/">
+        <i
+          class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"
+        ></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
+      </a>
+      <a href="/" class="pl-4">
+        <i class="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+
+    
+  </body>
+</html>
